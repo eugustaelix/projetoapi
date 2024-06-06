@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.cabecalho {
+  background-color: rgba(187, 221, 255, 1);
+  padding: 10px;
+  box-shadow: 0px 0px 10px lightblue;
+}
+
+.form {
+  padding: 30px;
+}
+
+.form-control {
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid #f0f0f0;
+  display: block;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+}
+
+.form-control i {
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.form-control small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form button {
+  background-color: rgba(187, 221, 255, 1);
+  border: none;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 1);
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.form-control.error input {
+  border-color: #ef4c3c;
+}
+
+.form-control.sucess input {
+  border-color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.sucess .fa-circle-check {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error .fa-exclamation-circle {
+  color: #ef4c3c;
+  visibility: visible;
+}
+
+.form-control.error small {
+  visibility: visible;
+  color: #ef4c3c;
+}
+
+.pesquisa
+{
+        width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(187, 221, 255, 1);
+    padding: 15px;
+    /* background-color: rgba(187, 221, 255, 1); */
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.05);
+}

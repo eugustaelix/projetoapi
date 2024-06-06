@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'"
+    />
+    <script src="cordova.js"></script>
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Cadastro</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fe31542f8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script04.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="cabecalho">
+        <h2
+          style="
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            margin-left: 10px;
+            color: white;
+          "
+        >
+          Pesquisa
+        </h2>
+      </div>
+
+      <form id="form" class="form">
+          <input
+            placeholder="Pesquise pelo nome..."
+            type="text"
+            id="username" class="pesquisa"
+          />
+      </form>
+    </div>
+  </body>
+</html>

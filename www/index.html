@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'"
+    />
+    <script src="cordova.js"></script>
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Cadastro</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fe31542f8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script04.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="cabecalho">
+        <h2
+          style="
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            margin-left: 10px;
+            color: white;
+          "
+        >
+          Cadastro
+        </h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome de Usuário:</label>
+          <input
+            placeholder="Digite seu nome de usuário..."
+            type="text"
+            id="username"
+          />
+          <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <small>mensagem de erro</small>
+        </div>
+        <div class="form-control">
+          <label for="sobrenome">Sobrenome:</label>
+          <input
+            placeholder="Digite seu sobrenome:"
+            type="text"
+            id="sobrenome"
+          />
+          <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa-solid fa-circle-check i" aria-hidden="true"></i>
+          <small>mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="endereco">Endereço:</label>
+          <input placeholder="Digite seu Endereço:" type="text" id="endereco" />
+          <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <small>mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="cidade">Cidade:</label>
+          <input placeholder="Digite sua Cidade:" type="text" id="cidade" />
+          <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <small>mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">E-mail:</label>
+          <input placeholder="Digite seu e-mail..." type="email" id="email" />
+          <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <small>mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="senha">Senha:</label>
+          <input placeholder="Digite sua Senha:" type="password" id="senha" />
+          <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <small>mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+          <label for="senhaconfirmada">Confirmação da Senha:</label>
+          <input
+            placeholder="Digite sua Senha Novamente:"
+            type="password"
+            id="senhaconfirmada"
+          />
+          <i class="fas fa-exclamation-circle" aria-hidden="true"></i>
+          <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+          <small>mensagem de erro</small>
+        </div>
+        <button type="button" onclick="window.location='pesquisa.html'">Enviar</button>
+      </form>
+    </div>
+  </body>
+</html>
+<!-- <button type="submit">Enviar</button> !>
